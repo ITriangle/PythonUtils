@@ -1,0 +1,6 @@
+
+\.idea/
+
+ENV/
+
+test_utils/test_http\.pyc

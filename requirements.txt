@@ -1,0 +1,17 @@
+certifi==2017.11.5
+chardet==3.0.4
+idna==2.6
+kazoo==2.4.0
+numpy==1.14.0
+pandas==0.22.0
+pdfminer==20140328
+Pillow==5.0.0
+portalocker==1.1.0
+pytesseract==0.1.7
+python-dateutil==2.6.1
+python-ldap==2.5.2
+pytz==2017.3
+requests==2.18.4
+six==1.11.0
+urllib3==1.22
+xlrd==1.1.0

@@ -6,7 +6,7 @@ import sys
 
 from numpy.random import random
 
-from test_http import get_industry
+
 
 reload(sys)
 
@@ -18,12 +18,11 @@ def scop_del(x):
     if x is None:
         return str(-1)
 
-    return str(get_industry(x))
+    # return str(get_industry(x))
 
     pass
 
-
-if __name__ == '__main__':
+def test_1():
     df_base = pd.read_excel("/home/wl/WLData/2018-01-11/inc_industry2018011 (copy).xlsx")
 
     # print df_base.index
@@ -56,4 +55,8 @@ if __name__ == '__main__':
 
     df_combine = pd.merge(df_base, new_df,left_on=u'公司名', right_on='inc_name')
 
-    # pass
+
+if __name__ == '__main__':
+    execl_path = '/home/wl/WLData/2018-03-05/highschool .xlsx'
+    df_base = pd.read_excel(execl_path)
+    pass
