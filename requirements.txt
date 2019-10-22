@@ -5,7 +5,7 @@ kazoo==2.4.0
 numpy==1.14.0
 pandas==0.22.0
 pdfminer==20140328
-Pillow==5.0.0
+Pillow==6.2.0
 portalocker==1.1.0
 pytesseract==0.1.7
 python-dateutil==2.6.1
