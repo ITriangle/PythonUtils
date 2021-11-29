@@ -9,7 +9,7 @@ Pillow==5.0.0
 portalocker==1.1.0
 pytesseract==0.1.7
 python-dateutil==2.6.1
-python-ldap==2.5.2
+python-ldap==3.4.0
 pytz==2017.3
 requests==2.18.4
 six==1.11.0
