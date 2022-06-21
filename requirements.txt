@@ -2,7 +2,7 @@ certifi==2017.11.5
 chardet==3.0.4
 idna==2.6
 kazoo==2.4.0
-numpy==1.14.0
+numpy==1.22.0
 pandas==0.22.0
 pdfminer==20140328
 Pillow==5.0.0
